@@ -26,11 +26,10 @@ try:
             print(command)
             command = command.lower()
             if 'alexa' in command:
-                print('Alexa: '+command)
+                print(f'Alexa: {command}')
             else:
                 print('I\'m not Alexa '+command)
         except:
             print("Sorry, could not recognise")
 except:
     print('yha aya')
-    pass
